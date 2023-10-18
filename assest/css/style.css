@@ -180,8 +180,8 @@
   margin-right: 23px;
 }
 
-.paddingtop-44px {
-  padding-top: 44px;
+.margin-44 {
+  margin-top: 44px;
 }
 
 .width-box {
@@ -194,6 +194,12 @@
 
 .background-div {
   background: rgba(44, 73, 254, 0.74);
+}
+
+.position-abspic {
+  position: absolute;
+  top: 205px;
+  left: 244px;
 }
 
 .padding-19-23 {
@@ -427,7 +433,7 @@
   max-width: 260px;
 }
 
-.pointer{
+.pointer {
   cursor: pointer;
 }
 
@@ -549,6 +555,7 @@
   max-width: 625px;
   height: 225px;
   background: rgba(44, 73, 254, 0.74);
+  border-radius: 28px;
 }
 
 .Location {
@@ -746,6 +753,11 @@
 
 .sec4-box1 {
   border-radius: 5px;
+  padding: 10px 11px 24px 13px;
+}
+
+.sec4-box1:hover {
+  border-radius: 5px;
   background: #fff;
   box-shadow: 2px 9px 32px 0px rgba(0, 0, 0, 0.06);
   padding: 10px 11px 24px 13px;
@@ -879,6 +891,10 @@
   margin-left: 16px;
 }
 
+.pr-117 {
+  padding-right: 117px;
+}
+
 .max-width-543 {
   max-width: 543px;
 }
@@ -912,17 +928,19 @@
   margin-left: 16px;
 }
 
-.mt-16 {
-  margin-top: 16px;
-}
-
-.border-about {
+.border-About {
   width: 100%;
+  max-width: 574px;
   height: 124px;
   border-radius: 5px;
   border: 1px solid rgba(0, 0, 0, 0.4);
   background: rgba(0, 0, 0, 0);
   padding-left: 17px;
+  padding-top: 10px;
+  margin-top: 16px;
+}
+
+.mt-16 {
   margin-top: 16px;
 }
 
@@ -952,7 +970,7 @@
 }
 
 .mt-100 {
-  margin-top: 100px;
+  margin-top: 60px;
 }
 
 .mb-90 {
@@ -1005,7 +1023,7 @@
   font-size: 14px;
   font-weight: 700;
 }
-header ul li:hover{
+header ul li:hover {
   font-size: 25px;
   font-weight: 600;
 }
@@ -1073,6 +1091,7 @@ header ul li:hover{
   margin-top: 30px;
 }
 
+
 @media (max-width: 992px) {
   label[for="menuIcon"] {
     width: 30px;
@@ -1119,6 +1138,7 @@ header ul li:hover{
     height: 108px;
     border-radius: 150px;
     background: rgba(44, 73, 254, 0.74);
+    border-radius: 150px;
   }
   .pt-50 {
     padding-top: 0;
