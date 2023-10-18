@@ -136,8 +136,16 @@
   height: 46px;
 }
 
+.pt-30 {
+  padding-top: 30px;
+}
+
 .fontsize-64 {
-  font-size: 50px;
+  font-size: 35px;
+}
+
+.gap-25 {
+  gap: 25px;
 }
 
 .fweight-700 {
@@ -678,7 +686,7 @@
 }
 
 .mt-50 {
-  margin-top: 50px;
+  margin-top: 25px;
 }
 
 .bg-imgsec2 {
@@ -1091,7 +1099,6 @@ header ul li:hover {
   margin-top: 30px;
 }
 
-
 @media (max-width: 992px) {
   label[for="menuIcon"] {
     width: 30px;
@@ -1146,6 +1153,18 @@ header ul li:hover {
   .col-6 {
     width: 50%;
   }
+  .mt-50 {
+    margin-top: 50px;
+  }
+
+  .col-lg-6 {
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .pt-30 {
+    padding-top: 0;
+  }
 }
 
 @media (min-width: 576px) {
@@ -1180,9 +1199,7 @@ header ul li:hover {
   .paddingright-15 {
     padding-right: 15px;
   }
-  .ml-30 {
-    margin-left: 30px;
-  }
+
   .margin-top-43 {
     margin-top: 43px;
   }
@@ -1201,6 +1218,9 @@ header ul li:hover {
   .col-sm-6 {
     width: 50%;
   }
+}
+
+@media (min-width: 776px) {
 }
 
 @media (min-width: 1200px) {
